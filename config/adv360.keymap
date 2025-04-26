@@ -27,8 +27,8 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            quick-tap-ms = <200>;
-            require-prior-idle-ms = <125>;
+            quick-tap-ms = <300>;
+            require-prior-idle-ms = <160>;
             flavor = "balanced";
         };
 
@@ -50,11 +50,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp EQUAL  &kp N1     &kp N2             &kp N3             &kp N4     &kp N5             &tog 1                                                                                                                 &mo 3                      &kp N6  &kp N7             &kp N8             &kp N9             &kp N0    &kp MINUS
-&kp TAB    &kp Q      &kp W              &kp E              &kp R      &kp T              &none                                                                                                                  &none                      &kp Y   &tr_chars RA(U) U  &tr_chars RA(I) I  &tr_chars RA(O) O  &kp P     &kp BSLH
-&kp ESC    &kp A      &tr_chars RA(S) S  &kp D              &kp F      &tr_chars RA(G) G  &none                    &kp LCTRL           &kp LALT                 &kp LGUI                   &kp RCTRL             &none                      &kp H   &kp J              &kp K              &kp L              &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z      &kp X              &tr_chars RA(C) C  &kp V      &kp B                                                           &kp HOME                 &kp PG_UP                                                                   &kp N   &kp M              &kp COMMA          &kp DOT            &kp FSLH  &kp RSHFT
-&mo 2      &kp GRAVE  &kp CAPS           &kp LEFT           &kp RIGHT                     &tcmt LEFT_COMMAND BSPC  &tcmt LEFT_ALT DEL  &tcmt RIGHT_ALT END      &tcmt RIGHT_ALT PAGE_DOWN  &tcmt LEFT_ALT ENTER  &tcmt RIGHT_COMMAND SPACE          &kp DOWN           &kp UP             &kp LBKT           &kp RBKT  &mo 2
+&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 1                                                                                                                 &mo 3                      &kp N6  &kp N7    &kp N8     &kp N9    &kp N0    &kp MINUS
+&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                                                                                  &none                      &kp Y   &kp U     &kp I      &kp O     &kp P     &kp BSLH
+&kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &none                    &kp LCTRL           &kp LALT                 &kp LGUI                   &kp RCTRL             &none                      &kp H   &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                                                &kp HOME                 &kp PG_UP                                                                   &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
+&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &tcmt LEFT_COMMAND BSPC  &tcmt LEFT_ALT DEL  &tcmt RIGHT_ALT END      &tcmt RIGHT_ALT PAGE_DOWN  &tcmt LEFT_ALT ENTER  &tcmt RIGHT_COMMAND SPACE          &kp DOWN  &kp UP     &kp LBKT  &kp RBKT  &mo 2
             >;
         };
 
