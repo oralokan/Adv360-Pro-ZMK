@@ -177,7 +177,7 @@
 
         turkish {
             bindings = <
-&trans  &trans  &trans     &trans     &trans  &trans     &trans                                      &trans  &trans  &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &kp RA(S)  &kp RA(C)  &trans  &kp RA(G)  &trans                                      &trans  &trans  &kp RA(U)  &kp RA(I)  &kp RA(O)  &trans  &trans
 &trans  &trans  &trans     &trans     &trans  &trans     &trans                                      &trans  &trans  &kp RA(U)  &kp RA(I)  &kp RA(O)  &trans  &trans
 &trans  &trans  &kp RA(S)  &trans     &trans  &kp RA(G)  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans  &trans
 &trans  &trans  &trans     &kp RA(C)  &trans  &trans                     &trans      &trans                  &trans  &trans     &trans     &trans     &trans  &trans
@@ -187,11 +187,11 @@
 
         turkish_trigger {
             bindings = <
-&trans  &trans  &trans  &trans                 &trans  &trans  &trans                                      &trans  &trans  &trans  &trans                  &trans  &trans  &trans
-&trans  &trans  &trans  &trans                 &trans  &trans  &trans                                      &trans  &trans  &trans  &trans                  &trans  &trans  &trans
-&trans  &trans  &trans  &home_mod_tr_left 4 D  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &home_mod_tr_right 4 K  &trans  &trans  &trans
-&trans  &trans  &trans  &trans                 &trans  &trans                  &trans      &trans                  &trans  &trans  &trans                  &trans  &trans  &trans
-&trans  &trans  &trans  &trans                 &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans                  &trans  &trans  &trans
+&trans  &trans  &kp RA(S)  &kp RA(C)              &kp RA(G)  &trans  &trans                                      &trans  &trans  &kp RA(U)  &kp RA(I)               &kp RA(O)  &trans  &trans
+&trans  &trans  &trans     &trans                 &trans     &trans  &trans                                      &trans  &trans  &trans     &trans                  &trans     &trans  &trans
+&trans  &trans  &trans     &home_mod_tr_left 4 D  &trans     &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans     &home_mod_tr_right 4 K  &trans     &trans  &trans
+&trans  &trans  &trans     &trans                 &trans     &trans                  &trans      &trans                  &trans  &trans     &trans                  &trans     &trans  &trans
+&trans  &trans  &trans     &trans                 &trans             &trans  &trans  &trans      &trans  &trans  &trans          &trans     &trans                  &trans     &trans  &trans
             >;
         };
 
