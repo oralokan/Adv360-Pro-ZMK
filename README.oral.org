@@ -1,0 +1,10 @@
+* Notes
+- I tried using 'J' to activate the Fn layer, so that I could insert parenthesis with my left hand.
+  I saw this in Fatih Arslan's configuration.
+  This led to the following problem in my workflow.
+  I use 'j' to move the cursor down, since I am using vim bindings.
+  I would like to be able to hold 'j' down in order to quickly move the cursor down several line.
+  As a replacement, I'm thinking about using the 'M' key.
+- I cannot insert '_' when caps lock is active.
+- 2025-05-04 Just having C-c bound to right Ctrl put stress on my fingers. I need it for both hands.
+- 2025-05-04 The Turkish layer has simply become remapping numbers. If I keep this, I can do it in a locale file too.
