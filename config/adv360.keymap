@@ -159,10 +159,10 @@
         turkish {
             bindings = <
 &trans  &trans  &trans     &trans  &trans  &trans  &trans                                         &trans     &trans  &trans  &trans  &trans     &trans  &trans
-&trans  &trans  &trans     &trans  &trans  &trans  &kp RA(C)                                      &kp RA(I)  &trans  &trans  &trans  &trans     &trans  &trans
-&trans  &trans  &trans     &trans  &trans  &trans  &kp RA(O)  &trans  &trans      &trans  &trans  &kp RA(U)  &trans  &trans  &trans  &trans     &trans  &trans
+&trans  &trans  &trans     &trans  &trans  &trans  &kp RA(C)                                      &kp RA(S)  &trans  &trans  &trans  &trans     &trans  &trans
+&trans  &trans  &trans     &trans  &trans  &trans  &kp RA(U)  &trans  &trans      &trans  &trans  &kp RA(O)  &trans  &trans  &trans  &trans     &trans  &trans
 &trans  &trans  &trans     &trans  &trans  &trans                     &trans      &trans                     &trans  &trans  &trans  &trans     &trans  &trans
-&trans  &trans  &kp RA(S)  &trans  &trans          &trans     &trans  &trans      &trans  &trans  &trans             &trans  &trans  &kp RA(G)  &trans  &trans
+&trans  &trans  &kp RA(G)  &trans  &trans          &trans     &trans  &trans      &trans  &trans  &trans             &trans  &trans  &kp RA(I)  &trans  &trans
             >;
         };
 
