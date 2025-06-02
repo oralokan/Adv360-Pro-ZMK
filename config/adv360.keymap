@@ -160,7 +160,7 @@
             bindings = <
 &trans       &trans  &trans  &trans  &trans  &trans  &trans                                         &trans     &trans  &trans  &trans  &trans  &trans  &trans
 &trans       &trans  &trans  &trans  &trans  &trans  &kp RA(C)                                      &kp RA(O)  &trans  &trans  &trans  &trans  &trans  &trans
-&trans       &trans  &trans  &trans  &trans  &trans  &kp RA(G)  &trans  &trans      &trans  &trans  &kp RA(S)  &trans  &trans  &trans  &trans  &trans  &trans
+&trans       &trans  &trans  &trans  &trans  &trans  &kp RA(S)  &trans  &trans      &trans  &trans  &kp RA(G)  &trans  &trans  &trans  &trans  &trans  &trans
 &trans       &trans  &trans  &trans  &trans  &trans                     &trans      &trans                     &trans  &trans  &trans  &trans  &trans  &trans
 &lt 2 RA(I)  &trans  &trans  &trans  &trans          &trans     &trans  &trans      &trans  &trans  &trans             &trans  &trans  &trans  &trans  &lt 2 RA(U)
             >;
